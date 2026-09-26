@@ -1,0 +1,223 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "min_value": 1
+        },
+        "meta": {},
+        "id": "0780a7da-e827-4aa5-b777-cd58d5ffdf83",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 24
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "paper_id"
+        },
+        "meta": {},
+        "id": "9237de82-fe88-430f-a024-af3bea24369c",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "paper_id"
+        },
+        "meta": {},
+        "id": "28e770b6-6525-4437-a26b-15970c9e5309",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "title"
+        },
+        "meta": {},
+        "id": "130f86af-e67e-4d87-b2e4-e080e26e683d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "summary",
+          "min_value": 10
+        },
+        "meta": {},
+        "id": "f83fe983-c802-4724-b469-2dfbaa1965b0",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 0.0,
+        "unexpected_percent_nonmissing": 0.0,
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "age_days",
+          "min_value": 0.0,
+          "max_value": 180.0
+        },
+        "meta": {},
+        "id": "5e695b73-c8ff-4404-8a0c-5a894ea77cde",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 24,
+        "unexpected_count": 1,
+        "unexpected_percent": 4.166666666666666,
+        "partial_unexpected_list": [
+          182
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 4.166666666666666,
+        "unexpected_percent_nonmissing": 4.166666666666666,
+        "partial_unexpected_counts": [
+          {
+            "value": 182,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          23
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "quality_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 6,
+    "successful_expectations": 5,
+    "unsuccessful_expectations": 1,
+    "success_percent": 83.33333333333334
+  },
+  "meta": {
+    "great_expectations_version": "1.23.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260926T054217.278203Z",
+      "pandas_data_fingerprint": "e738912b5df900ea7cea8e68523c1971"
+    },
+    "active_batch_definition": {
+      "datasource_name": "pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "df_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "a18fe4f2-e8b6-4f20-a371-b9860d819046",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-09-26T12:42:17.377390+07:00"
+    },
+    "validation_time": "2026-09-26T05:42:17.377390+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

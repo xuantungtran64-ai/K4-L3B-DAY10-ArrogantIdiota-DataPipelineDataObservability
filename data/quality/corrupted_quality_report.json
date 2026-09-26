@@ -1,0 +1,255 @@
+{
+  "success": false,
+  "results": [
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_table_row_count_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "min_value": 1
+        },
+        "meta": {},
+        "id": "c391f162-27f3-4078-876a-17c2695e87a5",
+        "severity": "critical"
+      },
+      "result": {
+        "observed_value": 23
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "paper_id"
+        },
+        "meta": {},
+        "id": "58a1a9f5-7f65-44df-a8f2-e8b9dbf1656b",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 23,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_unique",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "paper_id"
+        },
+        "meta": {},
+        "id": "701427ad-f547-4b3d-8aee-4c561b92c718",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 23,
+        "unexpected_count": 2,
+        "unexpected_percent": 8.695652173913043,
+        "partial_unexpected_list": [
+          "10.1145/3637528.3671804",
+          "10.1145/3637528.3671804"
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 8.695652173913043,
+        "unexpected_percent_nonmissing": 8.695652173913043,
+        "partial_unexpected_counts": [
+          {
+            "value": "10.1145/3637528.3671804",
+            "count": 2
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          22
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": true,
+      "expectation_config": {
+        "type": "expect_column_values_to_not_be_null",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "title"
+        },
+        "meta": {},
+        "id": "2ccc6970-ba08-476a-9a2c-23c4cad81b4d",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 23,
+        "unexpected_count": 0,
+        "unexpected_percent": 0.0,
+        "partial_unexpected_list": [],
+        "partial_unexpected_counts": [],
+        "partial_unexpected_index_list": []
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_value_lengths_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "summary",
+          "min_value": 10
+        },
+        "meta": {},
+        "id": "fb3b3a5e-031b-49bb-80a2-56d29c482e08",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 23,
+        "unexpected_count": 2,
+        "unexpected_percent": 8.695652173913043,
+        "partial_unexpected_list": [
+          "",
+          ""
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 8.695652173913043,
+        "unexpected_percent_nonmissing": 8.695652173913043,
+        "partial_unexpected_counts": [
+          {
+            "value": "",
+            "count": 2
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          22
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    },
+    {
+      "success": false,
+      "expectation_config": {
+        "type": "expect_column_values_to_be_between",
+        "kwargs": {
+          "batch_id": "pandas_source-df_asset",
+          "column": "age_days",
+          "min_value": 0.0,
+          "max_value": 180.0
+        },
+        "meta": {},
+        "id": "ad06d2c0-051d-457e-ba1c-8ccb8ec01490",
+        "severity": "critical"
+      },
+      "result": {
+        "element_count": 23,
+        "unexpected_count": 4,
+        "unexpected_percent": 17.391304347826086,
+        "partial_unexpected_list": [
+          9999,
+          9999,
+          182,
+          9999
+        ],
+        "missing_count": 0,
+        "missing_percent": 0.0,
+        "unexpected_percent_total": 17.391304347826086,
+        "unexpected_percent_nonmissing": 17.391304347826086,
+        "partial_unexpected_counts": [
+          {
+            "value": 9999,
+            "count": 3
+          },
+          {
+            "value": 182,
+            "count": 1
+          }
+        ],
+        "partial_unexpected_index_list": [
+          0,
+          2,
+          21,
+          22
+        ]
+      },
+      "meta": {},
+      "exception_info": {
+        "raised_exception": false,
+        "exception_traceback": null,
+        "exception_message": null
+      }
+    }
+  ],
+  "suite_name": "quality_suite",
+  "suite_parameters": {},
+  "statistics": {
+    "evaluated_expectations": 6,
+    "successful_expectations": 3,
+    "unsuccessful_expectations": 3,
+    "success_percent": 50.0
+  },
+  "meta": {
+    "great_expectations_version": "1.23.2",
+    "batch_spec": {
+      "batch_data": "PandasDataFrame"
+    },
+    "batch_markers": {
+      "ge_load_time": "20260926T053316.091907Z",
+      "pandas_data_fingerprint": "066ade16cd495c3cafbe3236488aa682"
+    },
+    "active_batch_definition": {
+      "datasource_name": "pandas_source",
+      "data_connector_name": "fluent",
+      "data_asset_name": "df_asset",
+      "batch_identifiers": {
+        "dataframe": "<DATAFRAME>"
+      }
+    },
+    "validation_id": "a5fb6a4d-6456-436b-a6be-9e8661d0107c",
+    "checkpoint_id": null,
+    "run_id": {
+      "run_name": null,
+      "run_time": "2026-09-26T12:33:16.168142+07:00"
+    },
+    "validation_time": "2026-09-26T05:33:16.168142+00:00",
+    "batch_parameters": {
+      "dataframe": "<DATAFRAME>"
+    }
+  },
+  "id": null
+}

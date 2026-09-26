@@ -1,0 +1,137 @@
+[
+  {
+    "id": "cb7510c0-d48f-4f57-8776-eb90f195e8ae",
+    "question_type": "summary",
+    "question": "What is the paper 'Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines' about?",
+    "ground_truth": "Static benchmarks fail to capture domain drift in enterprise knowledge bases. We establish a synthetic test generator that auto-creates paired evaluation sets whenever new corpora are ingested.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671812"
+    ]
+  },
+  {
+    "id": "ceb9aa85-7421-48ed-b33c-44c380866487",
+    "question_type": "authors",
+    "question": "Who are the authors of 'Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines'?",
+    "ground_truth": "The authors are Quang Le, Yen Vu.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671812"
+    ]
+  },
+  {
+    "id": "f73ca43c-63ae-486a-9450-879ef2cce79b",
+    "question_type": "date",
+    "question": "When was the paper 'Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines' published?",
+    "ground_truth": "It was published on 2026-07-22.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671812"
+    ]
+  },
+  {
+    "id": "7aacb881-4555-49ec-8d06-db0aa00dc1c1",
+    "question_type": "summary",
+    "question": "What is the paper 'Multi-Agent Consensus for High-Stakes Fact Verification' about?",
+    "ground_truth": "A single LLM is susceptible to confirmation bias when evaluating retrieved evidence. We demonstrate a multi-agent debate architecture where specialized verifier agents critique and corroborate citations.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671808"
+    ]
+  },
+  {
+    "id": "34bf8a40-cc6c-4471-9867-2542e7be6509",
+    "question_type": "authors",
+    "question": "Who are the authors of 'Multi-Agent Consensus for High-Stakes Fact Verification'?",
+    "ground_truth": "The authors are Phong Vu, Ngan Hoang.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671808"
+    ]
+  },
+  {
+    "id": "78ceb6cf-a916-4321-8223-99869bb97ff7",
+    "question_type": "date",
+    "question": "When was the paper 'Multi-Agent Consensus for High-Stakes Fact Verification' published?",
+    "ground_truth": "It was published on 2026-07-19.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671808"
+    ]
+  },
+  {
+    "id": "918d8fb7-aa57-414e-bc46-d754df5fc255",
+    "question_type": "summary",
+    "question": "What is the paper 'Freshness SLAs for Real-Time LLM Knowledge Augmentation' about?",
+    "ground_truth": "We define freshness service-level agreements (SLAs) for temporal document ingestion. By tracking document age and update cadence, our orchestrator dynamically prioritizes recrawling high-churn technical corpora.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671804"
+    ]
+  },
+  {
+    "id": "a46668e8-49c3-4844-9835-9275809e72ed",
+    "question_type": "authors",
+    "question": "Who are the authors of 'Freshness SLAs for Real-Time LLM Knowledge Augmentation'?",
+    "ground_truth": "The authors are Bao Do, Linh Ngo.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671804"
+    ]
+  },
+  {
+    "id": "05f997b3-232c-4aaf-87c9-1a1bf878e938",
+    "question_type": "date",
+    "question": "When was the paper 'Freshness SLAs for Real-Time LLM Knowledge Augmentation' published?",
+    "ground_truth": "It was published on 2026-07-05.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671804"
+    ]
+  },
+  {
+    "id": "5b74a4e3-61d4-4a45-bb75-7b012dc65fbe",
+    "question_type": "summary",
+    "question": "What is the paper 'Synthetic Corruption Testing: Stress-Testing Vector Search Robustness' about?",
+    "ground_truth": "We introduce an automated fuzzing suite that corrupts text chunks by injecting noise, truncating titles, and blanking summaries. Experiments reveal critical failure thresholds for dense embedding retrieval.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671807"
+    ]
+  },
+  {
+    "id": "9780864f-8421-4900-b7c1-715ee415a38e",
+    "question_type": "authors",
+    "question": "Who are the authors of 'Synthetic Corruption Testing: Stress-Testing Vector Search Robustness'?",
+    "ground_truth": "The authors are Kien Duong, Vy Ly.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671807"
+    ]
+  },
+  {
+    "id": "aeb7c4f3-f3ba-4647-b99d-d1f99993151f",
+    "question_type": "date",
+    "question": "When was the paper 'Synthetic Corruption Testing: Stress-Testing Vector Search Robustness' published?",
+    "ground_truth": "It was published on 2026-06-25.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671807"
+    ]
+  },
+  {
+    "id": "47cc43aa-3c5b-40bf-a9e4-469443614b07",
+    "question_type": "summary",
+    "question": "What is the paper 'Advanced Perspectives on Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines' about?",
+    "ground_truth": "An extended empirical study on tatic benchmarks fail to capture domain drift in enterprise knowledge bases. We establish a synthetic test generator that auto-creates paired evaluation sets whenever new corpora are ingested Further analysis on scaling parameters.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671824"
+    ]
+  },
+  {
+    "id": "3e68b1be-1f8d-4067-a747-dcd2c99c765d",
+    "question_type": "authors",
+    "question": "Who are the authors of 'Advanced Perspectives on Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines'?",
+    "ground_truth": "The authors are Quang Le, Yen Vu.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671824"
+    ]
+  },
+  {
+    "id": "5ecaa090-531d-492d-9dba-0eaf0b976247",
+    "question_type": "date",
+    "question": "When was the paper 'Advanced Perspectives on Continuous Benchmark Evaluation for Enterprise Retrieval Pipelines' published?",
+    "ground_truth": "It was published on 2026-06-12.",
+    "ground_truth_doc_ids": [
+      "10.1145/3637528.3671824"
+    ]
+  }
+]

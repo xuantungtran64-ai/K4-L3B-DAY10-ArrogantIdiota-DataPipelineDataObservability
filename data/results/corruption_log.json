@@ -1,0 +1,8 @@
+{
+  "dropped_records": 2,
+  "blank_summaries": 2,
+  "noise_injected": 2,
+  "truncated_titles": 2,
+  "old_dates_injected": 2,
+  "duplicate_rows_added": 1
+}
